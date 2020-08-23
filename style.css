@@ -29,7 +29,7 @@
   width: 220px;
   margin: 35px auto;
   position: relative;
-  box-shadow: 0 0 20px 2px rgb(16, 179, 207);
+  box-shadow: 0 0 20px 9px rgb(147, 203, 212);
   border-radius: 30px;
 }
 .toogle-btn {
@@ -48,17 +48,17 @@
   height: 100%;
   border-radius: 30px;
   transition: 0.5s;
-  background: linear-gradient(to right, rgb(5, 177, 207), rgb(118, 191, 204));
+  background: linear-gradient(to right, rgb(5, 177, 207), rgb(147, 203, 212));
 }
 .social-icons {
   margin: 30px auto;
   text-align: center;
 }
 .social-icons img {
+  cursor: pointer;
   width: 35px;
   margin: 0px 12px;
   box-shadow: 0 0 5px 0px rgb(16, 179, 207);
-  cursor: pointer;
   border-radius: 50%;
 }
 .input-group {
@@ -83,11 +83,11 @@
   padding: 10px 30px;
   cursor: pointer;
   display: block;
-  margin: auto;
+  margin: 15px auto;
   border: none;
   outline: none;
   border-radius: 30px;
-  background: linear-gradient(to right, rgb(16, 179, 207), rgb(92, 197, 216));
+  background: linear-gradient(to right, rgb(5, 177, 207), rgb(147, 203, 212));
 }
 .check-box {
   margin: 30px 10px 30px 0px;
@@ -95,7 +95,7 @@
 span {
   color: #777;
   font-size: 12px;
-  bottom: 65px;
+  bottom: 95px;
   position: absolute;
 }
 #login {
