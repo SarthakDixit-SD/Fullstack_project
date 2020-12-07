@@ -8,12 +8,30 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 85vh;
   background: #07252d;
+}
+a {
+  text-decoration: none;
+}
+a:link {
+  color: #0e3742;
+}
+
+a:visited {
+  color: #0e3742;
+}
+
+a:hover {
+  color: #0e3742;
+}
+
+a:active {
+  color: #0e3742;
 }
 h2 {
   position: relative;
-  font-size: 6em;
+  font-size: 8em;
   letter-spacing: 15px;
   color: #0e3742;
   text-transform: uppercase;
@@ -23,7 +41,9 @@ h2 {
   line-height: 0.78em;
   outline: none;
   animation: animate 5s linear infinite;
+  cursor: pointer;
 }
+
 @keyframes animate {
   0%,
   18%,

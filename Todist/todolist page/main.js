@@ -32,7 +32,7 @@ class item{
 
     	var remove = document.createElement('button');
     	remove.classList.add('remove');
-    	remove.innerHTML = "REMOVE";
+    	remove.innerHTML = " REMOVE";
     	remove.addEventListener('click', () => this.remove(itemBox, name));
 
     	container.appendChild(itemBox);
@@ -86,3 +86,4 @@ for (var v = 0 ; v < todos.length ; v++){
 
 
 new item("sport");
+
